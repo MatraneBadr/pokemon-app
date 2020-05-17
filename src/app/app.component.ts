@@ -8,6 +8,7 @@ import { POKEMONS } from './mock-pockemons';
 })
 export class AppComponent implements OnInit { 
   
+  private title: string ="Pokémons";
   private pokemons: Pokemon[]; 
 
   ngOnInit()

@@ -10,6 +10,7 @@ var core_1 = require("@angular/core");
 var mock_pockemons_1 = require("./mock-pockemons");
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
+        this.title = "Pokémons";
     }
     AppComponent.prototype.ngOnInit = function () {
         this.pokemons = mock_pockemons_1.POKEMONS;
